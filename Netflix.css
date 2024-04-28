@@ -3,8 +3,43 @@
   margin: 0;
 }
 
+.input {
+  padding: 22px;
+}
+
 body {
   background-color: black;
+}
+
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(248, 243, 243, 0.021);
+  border-radius: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 3px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 400;
+}
+
+.btn-red-sm {
+  background-color: red;
+  color: white;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
 
 .main {
@@ -141,6 +176,75 @@ nav button {
 }
 
 .text1 {
+  font-size: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 72px;
+  gap: 12px;
+}
+
+.fourthpage {
+  height: 80vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.text2 {
+  font-size: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 72px;
+  gap: 12px;
+}
+
+.text2 p {
+  padding-left: 50px;
+}
+
+.tv1 {
+  position: relative;
+}
+
+.tv1 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: right;
+  position: relative;
+  z-index: 10;
+}
+
+.tv1 video {
+  position: absolute;
+  top: 45px;
+  height: 217px;
+  right: 130px;
+}
+
+.fifthpage {
+  height: 80vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.fifthpage > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: left;
+  position: relative;
+  z-index: 10;
+}
+
+.text3 {
   font-size: 40px;
   color: white;
   display: flex;

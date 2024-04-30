@@ -5,7 +5,7 @@ let c = prompt('Enter operation');
 let b = prompt('Enter second number');
 
 let obj = {
-  '+': '-',
+  '+': '*',
   '*': '+',
   '-': '/',
   '/': '**',
